@@ -1,0 +1,233 @@
+.about {
+    background: #5a7cc0 url(about.jpg) 50% 0 no-repeat;
+    background: url(about.jpg) 50% 0 no-repeat, url(bg.jpg) repeat-x, linear-gradient(to bottom, #070f21 0, #0f1f42 125px, #4f7bbe 50%, #8db4d7 100%);
+
+    color: #333;
+}
+
+.about__inner {
+    width: 1192px;
+    margin: auto;
+}
+
+.about__main {
+    position: relative;
+}
+
+.about__slogan {
+    width: 426px;
+    margin-bottom: 48px;
+
+    font-size: 35px;
+}
+
+.about__description {
+    width: 372px;
+    margin-bottom: 65px;
+
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.about__download {
+    width: 300px;
+    text-align: right;
+}
+
+.about__footnote {
+    margin: 14px 0 6px;
+}
+
+.about__stamp {
+    width: 153px;
+    height: 139px;
+    margin: 0 0 12px -65px;
+
+    background: url(about__stamp.png) no-repeat;
+    background-size: 100%;
+}
+
+.about__laptop {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 650px;
+    height: 504px;
+    padding: 34px;
+
+    background: url(about__laptop.png) no-repeat;
+    background-size: 100%;
+}
+
+.about__laptop .video {
+    height: 404px;
+}
+
+@media (max-width: 1600px) {
+    .about__inner {
+        width: 1194px;
+    }
+
+    .about__laptop {
+        width: 596px;
+        height: 460px;
+        padding: 32px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .about__inner {
+        width: 900px;
+    }
+
+    .about__slogan {
+        font-size: 27px;
+    }
+
+    .about__description {
+        width: 314px;
+        font-size: 14px;
+    }
+
+    .about__stamp {
+        width: 112px;
+        height: 102px;
+        margin: -25px 0 0 -35px;
+    }
+
+    .about__laptop {
+        width: 440px;
+        height: 342px;
+        padding: 22px;
+    }
+
+    .about__laptop .video {
+        height: 274px;
+    }
+
+    .about__partners {
+        display: none; /* ? */
+    }
+}
+
+@media (max-width: 768px) {
+    .about__inner {
+        width: 642px;
+    }
+
+    .about__slogan {
+        width: 100%;
+        margin-bottom: 35px;
+        font-size: 26px;
+        color: #fff;
+    }
+
+    .about__description {
+        float: left;
+
+        width: 314px;
+        margin-bottom: 60px;
+
+        font-size: 14px;
+    }
+
+    .about__download {
+        float: left;
+    }
+
+    .about__footnote {
+        color: #fff;
+    }
+
+    .about__stamp {
+        position: absolute;
+        top: 596px;
+    }
+
+    .about__laptop {
+        position: static;
+        clear: both;
+
+        width: 554px;
+        height: 430px;
+        padding: 28px;
+    }
+
+    .about__laptop .video {
+        height: 345px;
+    }
+}
+
+.about__partners {
+    position: relative;
+
+    padding: 33px 0;
+
+    background: #fff;
+
+    color: #666;
+}
+
+.about__partners:before {
+    position: absolute;
+    left: 50%;
+    top: -40px;
+
+    width: 426px;
+    height: 40px;
+
+    content: "";
+
+    background: url(about__partners.png) no-repeat;
+}
+
+.about__partner {
+    display: inline-block;
+
+    margin-left: 56px;
+
+    vertical-align: middle;
+}
+
+.about__partner_type_disney {
+    width: 100px;
+    height: 43px;
+
+    background: url(about__partner_type_disney.png);
+}
+
+.about__partner_type_intel {
+    width: 76px;
+    height: 50px;
+
+    background: url(about__partner_type_intel.png);
+}
+
+.about__partner_type_hp {
+    width: 50px;
+    height: 50px;
+
+    background: url(about__partner_type_hp.png);
+}
+
+.about__partner_type_samsung {
+    width: 128px;
+    height: 41px;
+
+    background: url(about__partner_type_samsung.png);
+}
+
+.about__partner_type_acer {
+    width: 100px;
+    height: 26px;
+
+    background: url(about__partner_type_acer.png);
+}
+
+.about__partner_type_asus {
+    width: 100px;
+    height: 20px;
+
+    background: url(about__partner_type_asus.png);
+}

@@ -1,0 +1,19 @@
+.button_theme_md {
+    display: inline-block;
+    min-width: 300px;
+    padding: 0 40;
+
+    border: none;
+    background: #5ea003;
+    background: linear-gradient(to bottom, #65ad02 0, #579304 100%);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .5);
+
+    cursor: pointer;
+
+    font-size: 35px;
+    line-height: 64px;
+    color: #fff;
+
+    text-decoration: none;
+    text-align: center;
+}

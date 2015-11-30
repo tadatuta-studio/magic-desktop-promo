@@ -1,0 +1,68 @@
+.logo {
+    position: relative;
+    width: 600px;
+}
+
+.logo:before {
+    position: absolute;
+    left: -130px;
+
+    width: 99px;
+    height: 98px;
+
+    content: "";
+
+    background: url(logo.png) no-repeat;
+}
+
+.logo__title {
+    margin-bottom: 6px;
+
+    font-size: 58px;
+    color: #fff;
+}
+
+.logo__subtitle {
+    font-size: 22px;
+    color: #aad2ff;
+}
+
+@media (max-width: 1280px) {
+    .logo:before {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .logo:before {
+        position: static;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .logo__title {
+        font-size: 46px;
+    }
+
+    .logo__subtitle {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 400px;
+    }
+
+    .logo:before {
+        display: none;
+    }
+
+    .logo__title {
+        font-size: 42px;
+    }
+
+    .logo__subtitle {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "author": "tadatuta-studio",
+  "name": "magic-desktop-promo",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tadatuta-studio/magic-desktop-promo.git"
+  },
+  "engines": {
+    "node": ">=5.0"
+  },
+  "dependencies": {
+    "bower": "^1.6.5"
+  },
+  "devDependencies": {
+    "bem": "^0.10.2",
+    "borschik-tech-cleancss": "^2.1.0",
+    "enb": "^1.1.0",
+    "enb-bem-techs": "^2.1.0",
+    "enb-bemxjst": "^2.1.0",
+    "enb-borschik": "^2.1.0",
+    "enb-js": "^1.1.0",
+    "enb-stylus": "^2.2.0"
+  },
+  "scripts": {
+    "start": "enb server",
+    "postinstall": "npm run deps",
+    "deps": "bower i"
+  },
+  "private": true
+}

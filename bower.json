@@ -1,0 +1,14 @@
+{
+  "name": "magic-desktop-promo",
+  "version": "1.0.0",
+  "description": "Magic Desktop Promo",
+  "bugs": "https://github.com/tadatuta-studio/magic-desktop-promo/issues",
+  "ignore": [
+    ".bem/cache",
+    "node_modules",
+    "libs"
+  ],
+  "dependencies": {
+    "bem-components": "2.4.0"
+  }
+}

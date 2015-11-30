@@ -1,0 +1,26 @@
+.video {
+    cursor: pointer;
+
+    opacity: .7;
+
+    background: url(video.png) no-repeat 50% 50%;
+}
+
+.video:hover {
+    opacity: 1;
+}
+
+.video__player {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: none;
+}
+
+.video_loaded {
+    opacity: 1;
+}
+
+.video_loaded .video__player {
+    display: block;
+}

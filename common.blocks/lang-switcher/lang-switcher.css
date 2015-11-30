@@ -1,0 +1,116 @@
+.lang-switcher {
+    float: right;
+    margin-top: 18px;
+    padding: 3px 0 7px 32px;
+
+    font-size: 14px;
+    color: #9da2ad;
+
+    cursor: pointer;
+
+    background: url(lang-switcher.png) no-repeat;
+}
+
+.lang-switcher:after {
+    content: " ▾";
+}
+
+.lang-switcher__item {
+    display: block;
+    padding: 4px 10px 4px 34px;
+
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+
+    background: url(lang-switcher__item.png) no-repeat;
+}
+
+.lang-switcher__item:hover {
+    background-color: #ebebeb;
+}
+
+.lang-switcher__item_lang_danish
+{
+    background-position: 0 -25px;
+}
+
+.lang-switcher__item_lang_dutch
+{
+    background-position: 0 -217px;
+}
+
+.lang-switcher__item_lang_finnish
+{
+    background-position: 0 -241px;
+}
+
+.lang-switcher__item_lang_french
+{
+    background-position: 0 -48px;
+}
+
+.lang-switcher__item_lang_german
+{
+    background-position: 0 -265px;
+}
+
+.lang-switcher__item_lang_greek
+{
+    background-position: 0 -72px;
+}
+
+.lang-switcher__item_lang_hungarian
+{
+    background-position: 0 -289px;
+}
+
+.lang-switcher__item_lang_italian
+{
+    background-position: 0 -97px;
+}
+
+.lang-switcher__item_lang_japanese
+{
+    background-position: 0 -313px;
+}
+
+.lang-switcher__item_lang_norwegian
+{
+    background-position: 0 -121px;
+}
+
+.lang-switcher__item_lang_polish
+{
+    background-position: 0 -337px;
+}
+
+.lang-switcher__item_lang_portuguese
+{
+    background-position: 0 -145px;
+}
+
+.lang-switcher__item_lang_romanian
+{
+    background-position: 0 -361px;
+}
+
+.lang-switcher__item_lang_russian
+{
+    background-position: 0 -169px;
+}
+
+.lang-switcher__item_lang_spnish
+{
+    background-position: 0 -385px;
+}
+
+.lang-switcher__item_lang_swedish
+{
+    background-position: 0 -193px;
+}
+
+.lang-switcher__item_lang_turkish
+{
+    background-position: 0 -409px;
+}
