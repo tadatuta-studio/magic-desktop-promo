@@ -5,6 +5,7 @@
 
 .logo:before {
     position: absolute;
+    top: 14px;
     left: -130px;
 
     width: 99px;
@@ -34,6 +35,10 @@
 }
 
 @media (max-width: 1024px) {
+    .logo:before {
+        display: block;
+    }
+
     .logo:before {
         position: static;
         float: left;

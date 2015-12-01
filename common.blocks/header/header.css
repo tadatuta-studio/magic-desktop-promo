@@ -1,8 +1,15 @@
 .header {
-    margin-bottom: 114px;
-    padding: 78px 0 0 0;
+    margin-bottom: 66px;
+    padding-top: 64px;
 
     color: #fff;
+}
+
+@media (max-width: 1600px) {
+    .header {
+        margin-bottom: 30px;
+        padding-top: 30px;
+    }
 }
 
 @media (max-width: 768px) {

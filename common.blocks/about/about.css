@@ -1,6 +1,6 @@
 .about {
     background: #5a7cc0 url(about.jpg) 50% 0 no-repeat;
-    background: url(about.jpg) 50% 0 no-repeat, url(bg.jpg) repeat-x, linear-gradient(to bottom, #070f21 0, #0f1f42 125px, #4f7bbe 50%, #8db4d7 100%);
+    background: url(about.jpg) 50% -30px no-repeat, url(bg.jpg) 50% -30px repeat-x, linear-gradient(to bottom, #070f21 0, #0f1f42 125px, #4f7bbe 50%, #8db4d7 100%);
 
     color: #333;
 }
@@ -12,21 +12,25 @@
 
 .about__main {
     position: relative;
+
+    margin-bottom: 126px
 }
 
 .about__slogan {
     width: 426px;
-    margin-bottom: 48px;
+    margin-bottom: 42px;
+    padding-top: 48px;
 
-    font-size: 35px;
+    font-size: 34px;
+    line-height: 37px;
 }
 
 .about__description {
     width: 372px;
-    margin-bottom: 65px;
+    margin-bottom: 55px;
 
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 .about__download {
@@ -39,6 +43,9 @@
 }
 
 .about__stamp {
+    position: absolute;
+    z-index: 2;
+
     width: 153px;
     height: 139px;
     margin: 0 0 12px -65px;
@@ -69,16 +76,39 @@
         width: 1194px;
     }
 
+    .about__slogan {
+        margin-bottom: 34px;
+        padding-top: 26px;
+    }
+
+    .about__description {
+        line-height: 1.2;
+    }
+
     .about__laptop {
         width: 596px;
         height: 460px;
         padding: 32px;
+    }
+
+    .about__laptop .video {
+        height: 372px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .about__inner {
+        width: 1088px;
     }
 }
 
 @media (max-width: 1024px) {
     .about__inner {
         width: 900px;
+    }
+
+    .about__main {
+        margin-bottom: 0;
     }
 
     .about__slogan {
@@ -91,6 +121,8 @@
     }
 
     .about__stamp {
+        position: static;
+
         width: 112px;
         height: 102px;
         margin: -25px 0 0 -35px;
@@ -118,7 +150,8 @@
 
     .about__slogan {
         width: 100%;
-        margin-bottom: 35px;
+        margin-bottom: 60px;
+        padding-top: 0;
         font-size: 26px;
         color: #fff;
     }
@@ -130,10 +163,11 @@
         margin-bottom: 60px;
 
         font-size: 14px;
+        line-height: 1.5;
     }
 
     .about__download {
-        float: left;
+        float: right;
     }
 
     .about__footnote {
@@ -151,6 +185,7 @@
 
         width: 554px;
         height: 430px;
+        margin: auto;
         padding: 28px;
     }
 
