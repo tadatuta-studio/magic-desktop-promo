@@ -115,7 +115,7 @@ module.exports = {
                             content: [
                                 {
                                     elem: 'title',
-                                    content: 'Magic Desktop 9'
+                                    content: 'Magic Desktop&nbsp;9'
                                 },
                                 {
                                     elem: 'subtitle',
@@ -127,43 +127,49 @@ module.exports = {
                 },
                 {
                     elem: 'main',
+                    mix: { block: 'clearfix' },
                     content: [
                         {
-                            elem: 'slogan',
-                            content: [
-                                'Develops kid’s intelligence, ',
-                                'imagination and creativity!'
-                            ]
-                        },
-                        {
-                            elem: 'description',
-                            content: [
-                                'Magic Desktop creates a safe environment, ',
-                                'provides children with educational content ',
-                                'and delivers lots of fun while they are learning.'
-                            ]
-                        },
-                        {
-                            elem: 'download',
+                            elem: 'column',
                             content: [
                                 {
-                                    block: 'button',
-                                    mods: { type: 'link', theme: 'md' },
-                                    url: 'http://www.magicdesktop.com/get',
-                                    text: 'Download'
+                                    elem: 'slogan',
+                                    content: [
+                                        'Develops kid’s intelligence, ',
+                                        'imagination and creativity!'
+                                    ]
                                 },
                                 {
-                                    elem: 'footnote',
-                                    content: '(for Windows only)'
-                                }
+                                    elem: 'description',
+                                    content: [
+                                        'Magic Desktop creates a safe environment, ',
+                                        'provides children with educational content ',
+                                        'and delivers lots of fun while they are learning.'
+                                    ]
+                                },
+                                {
+                                    elem: 'download',
+                                    content: [
+                                        {
+                                            block: 'button',
+                                            mods: { type: 'link', theme: 'md' },
+                                            url: 'http://www.magicdesktop.com/get',
+                                            text: 'Download'
+                                        },
+                                        {
+                                            elem: 'footnote',
+                                            content: '(for Windows only)'
+                                        }
+                                    ]
+                                },
+                                { elem: 'stamp' }
                             ]
                         },
-                        { elem: 'stamp' },
                         {
                             elem: 'laptop',
                             content: {
                                 block: 'video',
-                                url: 'https://www.youtube.com/embed/7pmPO95Y068'
+                                url: 'https://www.youtube.com/embed/7pmPO95Y068?autoplay=1&showinfo=0'
                             }
                         }
                     ]

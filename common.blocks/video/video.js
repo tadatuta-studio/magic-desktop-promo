@@ -7,7 +7,6 @@ provide(BEMDOM.decl(this.name, {
                 var player = this.elem('player');
                 player.attr('src', player.attr('data-src'));
                 this.__self.liveUnbindFrom('click');
-                // TODO: autoplay video
             }
         }
     }
