@@ -74,6 +74,10 @@
     height: 410px;
 }
 
+.about__laptop .about__stamp {
+    display: none;
+}
+
 .about__partners {
     position: relative;
 
@@ -201,7 +205,7 @@
 @media (max-width: 1024px) {
     .about {
         display: block;
-        background-position: 0 0, 0 0;
+        background-position: -127px -22px, -127px -22px;
     }
 
     .about__inner {
@@ -240,14 +244,27 @@
         height: 274px;
     }
 
-    .about__partners {
-        display: none; /* ? */
+    .about__partners .about__inner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .about__partners:before {
+        margin-left: -213px;
+    }
+
+    .about__partner {
+        margin: 0;
     }
 }
 
-@media (max-width: 768px) {
-    .about__inner {
-        width: 642px;
+/*@media (max-width: 768px) {*/
+@media (max-width: 904px) {
+    .about {
+        min-width: 700px;
+        background-position: -301px -35px, -301px -35px;
     }
 
     .about__column {
@@ -286,7 +303,7 @@
     }
 
     .about__laptop {
-        position: static;
+        position: relative;
         clear: both;
 
         float: none;
@@ -295,9 +312,30 @@
         height: 430px;
         margin: auto;
         padding: 28px;
+        padding-bottom: 65px;
     }
 
     .about__laptop .video {
         height: 347px;
+    }
+
+    .about__stamp {
+        display: none;
+    }
+
+    .about__laptop .about__stamp {
+        position: absolute;
+        left: -18px;
+        top: auto;
+        bottom: 10px;
+
+        display: block;
+
+        width: 153px;
+        height: 139px;
+    }
+
+    .about__partner_type_asus {
+        display: none;
     }
 }

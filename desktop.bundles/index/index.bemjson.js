@@ -167,10 +167,13 @@ module.exports = {
                         },
                         {
                             elem: 'laptop',
-                            content: {
-                                block: 'video',
-                                url: 'https://www.youtube.com/embed/7pmPO95Y068?autoplay=1&showinfo=0'
-                            }
+                            content: [
+                                {
+                                    block: 'video',
+                                    url: 'https://www.youtube.com/embed/7pmPO95Y068?autoplay=1&showinfo=0'
+                                },
+                                { elem: 'stamp' }
+                            ]
                         }
                     ]
                 },
