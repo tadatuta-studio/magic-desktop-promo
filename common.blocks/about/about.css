@@ -204,7 +204,6 @@
 
 @media (max-width: 1024px) {
     .about {
-        display: block;
         background-position: -127px -22px, -127px -22px;
     }
 
