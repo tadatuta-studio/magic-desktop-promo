@@ -18,7 +18,8 @@ var isProd = process.env.YENV === 'production',
 
         // bemhtml
         bemhtml: require('enb-bemxjst/techs/bemhtml'),
-        bemjsonToHtml: require('enb-bemxjst/techs/bemjson-to-html')
+        bemjsonToHtml: require('enb-bemxjst/techs/bemjson-to-html'),
+        beautify: require('enb-beautify/techs/enb-beautify-html')
     },
     enbBemTechs = require('enb-bem-techs'),
     levels = [
@@ -61,7 +62,14 @@ module.exports = function(config) {
             [techs.bemhtml],
 
             // html
-            [techs.bemjsonToHtml],
+            [techs.bemjsonToHtml, {
+                target: '?.min.html'
+            }],
+
+            [techs.beautify, {
+                htmlFile: '?.min.html',
+                target: '?.html'
+            }],
 
             // client bemhtml
             [enbBemTechs.depsByTechToBemdecl, {
