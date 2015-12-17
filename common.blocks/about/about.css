@@ -249,6 +249,10 @@
     .about__laptop .video {
         height: 274px;
     }
+
+    .about__partner_type_asus {
+        display: none;
+    }
 }
 
 /*@media (max-width: 768px) {*/
@@ -328,10 +332,6 @@
 
     .about__partners:before {
         margin-left: -213px;
-    }
-
-    .about__partner_type_asus {
-        display: none;
     }
 
     .about__partner_type_acer {
