@@ -181,13 +181,26 @@ module.exports = {
                     elem: 'partners',
                     content: [
                         'Our partners:',
-                        ['disney', 'intel', 'hp', 'samsung', 'acer', 'asus'].map(partner => ({
+                        ['microsoft', 'disney', 'intel', 'hp', 'samsung', 'acer', 'asus'].map(partner => ({
                             elem: 'partner',
                             elemMods: { type: partner }
                         }))
                     ]
                 }
             ]
+        },
+        {
+            block: 'modal',
+            mods: {
+                autoclosable: true,
+                theme: 'islands',
+                'has-close': true
+            },
+            mix: { block: 'promo', js: true },
+            content: {
+                block: 'promo',
+                elem: 'content'
+            }
         }
     ]
 };

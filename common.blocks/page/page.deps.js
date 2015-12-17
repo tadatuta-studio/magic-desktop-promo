@@ -1,3 +1,3 @@
 ({
-    mustDeps: 'metrika'
+    mustDeps: ['analytics', 'metrika']
 })

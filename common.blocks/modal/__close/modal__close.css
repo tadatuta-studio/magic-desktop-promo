@@ -1,0 +1,10 @@
+.modal__close
+{
+    position: absolute;
+    right: 46px;
+
+    cursor: pointer;
+
+    font-size: 26px;
+    color: #fff;
+}

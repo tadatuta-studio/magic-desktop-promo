@@ -13,6 +13,7 @@ provide(BEMDOM.decl(this.name, {
 }, {
     live: function() {
         this.liveBindTo('click', function() {
+            ga('send', 'event', 'LandingPageNew', 'click', 'Watch');
             this.setMod('loaded');
         });
     }

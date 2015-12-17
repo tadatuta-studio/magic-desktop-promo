@@ -1,0 +1,18 @@
+.promo__content {
+    width: 632px;
+    height: 685px;
+    max-width: 80vw;
+    max-height: 80vh;
+
+    background: url(promo.png) no-repeat 50% 50%;
+    background-size: auto 100%;
+}
+
+.promo.modal.modal {
+    background: rgba(0, 0, 0, .8);
+}
+
+.promo .modal__content {
+    border: none;
+    background: none;
+}
