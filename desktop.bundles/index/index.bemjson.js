@@ -155,7 +155,7 @@ module.exports = {
                                             block: 'button',
                                             mods: { type: 'link', theme: 'md' },
                                             url: 'http://www.magicdesktop.com/get',
-                                            text: 'Download'
+                                            text: 'Try it Free'
                                         },
                                         {
                                             elem: 'footnote',
@@ -189,19 +189,19 @@ module.exports = {
                     ]
                 }
             ]
-        },
-        {
-            block: 'modal',
-            mods: {
-                autoclosable: true,
-                theme: 'islands',
-                'has-close': true
-            },
-            mix: { block: 'promo', js: true },
-            content: {
-                block: 'promo',
-                elem: 'content'
-            }
         }
+        // , {
+        //     block: 'modal',
+        //     mods: {
+        //         autoclosable: true,
+        //         theme: 'islands',
+        //         'has-close': true
+        //     },
+        //     mix: { block: 'promo', js: true },
+        //     content: {
+        //         block: 'promo',
+        //         elem: 'content'
+        //     }
+        // }
     ]
 };
