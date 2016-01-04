@@ -1,9 +1,10 @@
 module.exports = {
     block: 'page',
-    title: 'Title of the page',
+    title: '@MetaStrings.HPUpdateLandingTitle',
     favicon: '/favicon.ico',
     head: [
-        { elem: 'meta', attrs: { name: 'description', content: '' } },
+        { elem: 'meta', attrs: { name: 'description', content: '@MetaStrings.HPUpdateLandingDescription' } },
+        { elem: 'meta', attrs: { name: 'keywords', content: '@MetaStrings.HPUpdateLandingKeywords' } },
         { elem: 'meta', attrs: { name: 'viewport', content: 'width=device-width, initial-scale=1' } },
         { elem: 'css', url: 'index.min.css' }
     ],
@@ -24,87 +25,87 @@ module.exports = {
                                     content: 'International (English)'
                                 },
                                 {
-                                    lang: 'danish',
+                                    lang: 'da-DK',
                                     url: '#Danish',
                                     content: 'Dansk (Danish)'
                                 },
                                 {
-                                    lang: 'dutch',
+                                    lang: 'nl-NL',
                                     url: '#Nederlands',
                                     content: 'Nederlands (Dutch)'
                                 },
                                 {
-                                    lang: 'finnish',
+                                    lang: 'fi-FI',
                                     url: '#Finnish',
                                     content: 'Suomi (Finnish)'
                                 },
                                 {
-                                    lang: 'french',
+                                    lang: 'fr-FR',
                                     url: '#French',
                                     content: 'Français (French)'
                                 },
                                 {
-                                    lang: 'german',
+                                    lang: 'de-DE',
                                     url: '#Deutsch',
                                     content: 'Deutsch (German)'
                                 },
                                 {
-                                    lang: 'greek',
+                                    lang: 'el-GR',
                                     url: '#Greek',
                                     content: 'Ελληνικά (Greek)'
                                 },
                                 {
-                                    lang: 'hungarian',
+                                    lang: 'hu-HU',
                                     url: '#Magyar',
                                     content: 'Magyar (Hungarian)'
                                 },
                                 {
-                                    lang: 'italian',
+                                    lang: 'it-IT',
                                     url: '#Italiano',
                                     content: 'Italiano (Italian)'
                                 },
                                 {
-                                    lang: 'japanese',
+                                    lang: 'ja-JP',
                                     url: '#Japanese',
                                     content: '日本語 (Japanese)'
                                 },
                                 {
-                                    lang: 'norwegian',
+                                    lang: 'nb-NO',
                                     url: '#Norwegian',
                                     content: 'Norsk (Norwegian)'
                                 },
                                 {
-                                    lang: 'polish',
+                                    lang: 'pl-PL',
                                     url: '#Polish',
                                     content: 'Polski (Polish)'
                                 },
                                 {
-                                    lang: 'portuguese',
+                                    lang: 'pt-PT',
                                     url: '#Portuguese',
                                     content: 'Português (Portuguese)'
                                 },
                                 {
-                                    lang: 'romanian',
+                                    lang: 'ro-RO',
                                     url: '#Romanian',
                                     content: 'Română (Romanian)'
                                 },
                                 {
-                                    lang: 'russian',
+                                    lang: 'ru-RU',
                                     url: '#Russian',
                                     content: 'Русский (Russian)'
                                 },
                                 {
-                                    lang: 'spnish',
+                                    lang: 'es-ES',
                                     url: '#Spanish',
                                     content: 'Español (Spanish)'
                                 },
                                 {
-                                    lang: 'swedish',
+                                    lang: 'sv-SE',
                                     url: '#Swedish',
                                     content: 'Svenska (Swedish)'
                                 },
                                 {
-                                    lang: 'turkish',
+                                    lang: 'tr-TR',
                                     url: '#Turkish',
                                     content: 'Türkçe (Turkish)'
                                 }
