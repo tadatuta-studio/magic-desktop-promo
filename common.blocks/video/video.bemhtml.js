@@ -4,8 +4,7 @@ block('video')(
         return [
             applyNext(),
             {
-                elem: 'button',
-                content: '▶'
+                elem: 'button'
             },
             {
                 elem: 'player',
