@@ -637,16 +637,13 @@
     bottom: 10%;
     left: calc(50% - 30px);
     width: 60px;
-    padding: 5px 0 5px 5px;
+    height: 60px;
     color: #fff;
-    font-size: 40px;
-    text-align: center;
     border: 8px solid;
     border-radius: 50%;
 
     box-shadow: 0 0 10px 3px #c44,
           inset 0 0 10px 3px #c44;
-    text-shadow: 0 0 20px #f00;
 
     -webkit-animation-duration: 1s;
 
@@ -672,7 +669,6 @@
             transform: scale(1.05);
     box-shadow: 0 0 20px 3px #4c4,
           inset 0 0 20px 3px #4c4;
-    text-shadow: 0 0 20px #0f0;
   }
 
   40% {
@@ -680,12 +676,11 @@
             transform: scale(1.0);
     box-shadow: 0 0 10px 3px #4cc,
           inset 0 0 10px 3px #4cc;
-    text-shadow: 0 0 20px #0ff;
   }
 
   100% {
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
@@ -700,7 +695,6 @@
             transform: scale(1.05);
     box-shadow: 0 0 20px 3px #4c4,
           inset 0 0 20px 3px #4c4;
-    text-shadow: 0 0 20px #0f0;
   }
 
   40% {
@@ -708,13 +702,26 @@
             transform: scale(1.0);
     box-shadow: 0 0 10px 3px #4cc,
           inset 0 0 10px 3px #4cc;
-    text-shadow: 0 0 20px #0ff;
   }
 
   100% {
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
+}
+
+.video__button:after {
+    position: absolute;
+    left: 18px;
+    top: 8px;
+    content: "";
+
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    border-top: 22px solid transparent;
+    border-left: 32px solid;
+    border-bottom: 22px solid transparent;
 }
 
 .video__player {
