@@ -1,13 +1,53 @@
 .video {
+    position: relative;
     cursor: pointer;
-
-    opacity: .7;
-
-    background: url(video.png) no-repeat 50% 50%;
 }
 
-.video:hover {
-    opacity: 1;
+.video__button {
+    position: absolute;
+    bottom: 10%;
+    left: calc(50% - 30px);
+    width: 60px;
+    padding: 5px 0 5px 5px;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    border: 8px solid;
+    border-radius: 50%;
+
+    box-shadow: 0 0 10px 3px #c44,
+          inset 0 0 10px 3px #c44;
+    text-shadow: 0 0 20px #f00;
+
+    animation-duration: 1s;
+    animation-name: video__button;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+
+@keyframes video__button {
+  0% {
+    transform: scale(1);
+  }
+
+  20% {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px 3px #4c4,
+          inset 0 0 20px 3px #4c4;
+    text-shadow: 0 0 20px #0f0;
+  }
+
+  40% {
+    transform: scale(1.0);
+    box-shadow: 0 0 10px 3px #4cc,
+          inset 0 0 10px 3px #4cc;
+    text-shadow: 0 0 20px #0ff;
+  }
+
+  100% {
+    transform: scale(1.05);
+  }
 }
 
 .video__player {
@@ -23,4 +63,8 @@
 
 .video_loaded .video__player {
     display: block;
+}
+
+.video_loaded .video__button {
+    display: none;
 }

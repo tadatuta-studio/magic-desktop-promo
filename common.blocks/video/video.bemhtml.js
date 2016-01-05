@@ -4,6 +4,10 @@ block('video')(
         return [
             applyNext(),
             {
+                elem: 'button',
+                content: '▶'
+            },
+            {
                 elem: 'player',
                 url: this.ctx.url
             }
