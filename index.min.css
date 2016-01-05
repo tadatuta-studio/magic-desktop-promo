@@ -660,16 +660,16 @@
 
 .video__button:after {
     position: absolute;
-    left: 20px;
-    top: 12px;
+    left: 22px;
+    top: 13px;
     content: "";
 
     font-size: 0;
     line-height: 0;
     width: 0;
-    border-top: 22px solid transparent;
-    border-left: 32px solid;
-    border-bottom: 22px solid transparent;
+    border-top: 20px solid transparent;
+    border-left: 30px solid;
+    border-bottom: 20px solid transparent;
 }
 
 @-webkit-keyframes video__button {
@@ -746,12 +746,12 @@
 @media (max-width: 1280px) {
     .video__button {
         left: calc(50% - 38px); /* 38 = width/2 + left border */
+        top: 12px;
         width: 60px;
         height: 60px;
     }
 
     .video__button:after {
-        left: 22px;
         border-top-width: 18px;
         border-left-width: 30px;
         border-bottom-width: 18px;
