@@ -675,7 +675,7 @@
 .video__button:after {
     position: absolute;
     left: 23px;
-    top: 13px;
+    top: 12px;
     content: "";
 
     font-size: 0;
@@ -760,7 +760,6 @@
 @media (max-width: 1280px) {
     .video__button {
         left: calc(50% - 38px); /* 38 = width/2 + left border */
-        top: 12px;
         width: 60px;
         height: 60px;
     }
