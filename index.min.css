@@ -363,6 +363,20 @@
         display: none;
     }
 }
+
+@media (max-width: 320px) {
+    .about {
+        min-width: 900px;
+    }
+
+    .about__inner {
+        max-width: 98%;
+    }
+
+    .logo:before {
+        display: none;
+    }
+}
 /* ../../common.blocks/about/about.css:end */
 /* ../../common.blocks/header/header.css:begin */
 .header {
