@@ -364,7 +364,7 @@
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 600px) {
     .about {
         min-width: 900px;
     }
@@ -372,6 +372,10 @@
     .about__inner {
         max-width: 96%;
     }
+
+    /*.about__main {
+        margin: auto;
+    }*/
 
     .logo:before {
         display: none;
