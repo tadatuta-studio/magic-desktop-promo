@@ -364,7 +364,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 414px) {
     .about {
         min-width: 900px;
     }
