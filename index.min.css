@@ -373,9 +373,9 @@
         max-width: 96%;
     }
 
-    /*.about__main {
+    .about__main {
         margin: auto;
-    }*/
+    }
 
     .logo:before {
         display: none;
@@ -776,7 +776,12 @@
 }
 /* ../../common.blocks/video/video.css:end */
 /* ../../common.blocks/page/page.css:begin */
+html {
+    height: 100vh;
+}
+
 .page {
+    min-height: 100vh;
     margin: 0;
 
     background: #fff;
