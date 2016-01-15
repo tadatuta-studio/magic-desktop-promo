@@ -1,7 +1,1 @@
-block('header').content()(function() {
-    return {
-        block: 'about',
-        elem: 'inner',
-        content: applyNext()
-    };
-});
+block('header').mix()({ block: 'about', elem: 'inner' });

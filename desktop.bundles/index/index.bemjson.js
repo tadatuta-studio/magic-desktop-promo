@@ -171,7 +171,7 @@ module.exports = {
                             content: [
                                 {
                                     block: 'video',
-                                    url: 'https://www.youtube.com/embed/7pmPO95Y068?autoplay=1&showinfo=0'
+                                    url: 'https://www.youtube.com/embed/7pmPO95Y068?autoplay=1&rel=0&showinfo=0'
                                 },
                                 { elem: 'stamp' }
                             ]

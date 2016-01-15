@@ -1,13 +1,22 @@
 .lang-switcher {
+    position: relative;
     float: right;
     margin-top: 18px;
-    padding: 3px 0 7px 32px;
+    padding: 3px 0 7px;
 
     font-size: 14px;
     color: #9da2ad;
 
     cursor: pointer;
+}
 
+.lang-switcher:before {
+    content: "";
+
+    display: inline-block;
+    width: 32px;
+    height: 24px;
+    vertical-align: middle;
     background: url(lang-switcher.png) no-repeat;
 }
 
