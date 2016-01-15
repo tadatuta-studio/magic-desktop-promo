@@ -433,6 +433,10 @@
         padding-bottom: 63%;
     }
 
+    .video__button.video__button:after {
+        left: 20px;
+    }
+
     .about__laptop .about__stamp {
         display: none;
     }
