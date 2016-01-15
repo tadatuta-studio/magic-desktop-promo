@@ -418,15 +418,20 @@
     .about__laptop {
         width: 100%;
         height: 0;
-        padding: 0 0 112% 0;
+        padding: 1px 0 112% 0;
     }
 
     .about__laptop .video {
         position: relative;
         width: 92%;
         height: 0;
-        margin: 4% auto 0;
+        margin: auto;
         padding-bottom: 63%;
+    }
+
+    .about__stamp {
+        position: static;
+        margin-top: 0;
     }
 
     .about__partners {
