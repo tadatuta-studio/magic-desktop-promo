@@ -365,6 +365,10 @@
 }
 
 @media (max-width: 600px) {
+    .header.header {
+        padding-top: 20px;
+    }
+
     .about {
         min-width: auto;
         background-position: -301px 0, -301px 0;
@@ -396,7 +400,7 @@
         display: block;
         float: none;
 
-        margin: 18px auto 6px auto;
+        margin: 0 auto 6px auto;
         text-align: center;
     }
 
